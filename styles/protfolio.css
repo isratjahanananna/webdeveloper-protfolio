@@ -9,7 +9,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    margin: 0 200px;
 }
 
 nav > ul{
@@ -24,7 +24,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: darkgrey;
+    color: rgb(95, 92, 92);
 }
 .web-title{
     color: #181818;
@@ -44,4 +44,59 @@ font-weight: 800;
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+}
+/* header related styles */
+.header{
+    background-color: rgb(255, 232, 255);
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{padding: 30px 30px 0px 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+.banner .propic{
+    width: 500px;
+}
+
+.banner-welcome{
+    font-size: 45px;
+    color: rgb(115, 115, 115);
+    margin-bottom: 0;
+}
+.banner-title{font-size: 85px;
+    font-weight: 700;
+margin-top: 5px;
+margin-bottom: 20px;}
+.banner-discription{
+    margin-top: 0;
+}
+/* main section styles*/
+/* about section styles*/
+
+.about{
+    padding: 130px;
+border-radius: 10px;
+margin: 130px 0;
+background-color: rgb(253, 167, 246);
+}
+
+.section-title{color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
 }
