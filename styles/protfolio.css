@@ -169,8 +169,25 @@ margin-top: 50px;}
 
 /*footer style*/
 
-.footer{
+footer{
     display: flex;
-    background: rgb(255, 142, 255);
+    gap: 100px;
+    background: rgb(255, 223, 255);
     padding: 130px 200px;
+}
+.social-links a{
+    margin-right: 25px;
+}
+.footer-colum{
+    width: 50%;
+
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+   display: block;
+   margin-bottom: 25px;
+   padding: 18px 35px;
+   color: #757575;
+   border-radius: 5px;
+background: #FFF;
+width: 100%;
 }
